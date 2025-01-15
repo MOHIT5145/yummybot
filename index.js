@@ -32,17 +32,19 @@ Hello, ${username} 👋
 I Am *YummyURL Link Converter*. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
 
 🚀 **To Get Started**:
-1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)
+1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)\\
+
 2\\. Then Copy Your API Key\\.
 
-3\\. Then Type **/set\\_api**, give a single space, and paste your API Key\\.  
+3\\. Then Type **/api**, give a single space, and paste your API Key\\.  
    \\(See example below to understand more\\)
 
-**Example**:  
-\`/set_api f4e1787c1041fd077f95c6a721901f51dfebf0f6\`
+**Example**: `/api f4e1787c11dfebf0f6\`
 
-💁‍♀️ Hit 👉 **/help** To Get Help\\.  
+💁‍♀️ Hit 👉 **/help** To Get Help\\. 
+
 ➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\.  
+
 ➕ Hit 👉 **/header** To Get Help About Adding Your Custom Header To Bot\\.
 
 Happy linking🎉
@@ -70,7 +72,7 @@ bot.onText(/\/help/, (msg) => {
   const chatId = msg.chat.id;
 
   const helpMessage = `
-Hey My name is *YummyURL Bulk Converter Bot* and I'm a link converter and shortener bot \\.
+Hey My name is *YummyURL Link Converter Bot* and I'm a link converter and shortener bot \\.
 
 *Features:*
 • Hyperlink support 🔗
